@@ -1,0 +1,465 @@
+<content>
+
+	<!-- tarife protetica -->
+	<protetica>
+		<item>
+			<service>Reconstruction DCR</service>
+			<price>150 Ron</price>
+		</item>
+		<item>
+
+			<service>In-Lay/On-Lay Estenia</service>
+			<price>200 Ron</price>
+		</item>
+		<item>
+			<service>Temporary acrylic crown</service>
+			<price>50 Ron</price>
+		</item>
+		<item>
+			<service>Full Crown acrylic</service>
+			<price>100 Ron</price>
+		</item>
+		<item>
+			<service>Full Crown metallic</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Acrylic fused to metal crown</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Composit fused to metal crown(Estenia)</service>
+			<price>350 Ron</price>
+		</item>
+		<item>
+			<service>Porcelain fused to metal crown</service>
+			<price>500 Ron</price>
+		</item>
+		<item>
+			<service>Zirconium crown</service>
+			<price>1000 Ron</price>
+		</item>
+		<item>
+			<service>Full porcelain crown</service>
+			<price>1000 Ron</price>
+		</item>
+		<item>
+			<service>Acrylic Dentures</service>
+			<price>1000 Ron</price>
+		</item>
+		<item>
+			<service>Repair lining dentures</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Repair base Complete dentures</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Tooth adding to the denture</service>
+			<price>100 Ron</price>
+		</item>
+		<item>
+			<service>Skeletal prostheses</service>
+			<price>3000 Ron</price>
+		</item>
+		<item>
+			<service>Acrilic retainers</service>
+			<price>300 Ron</price>
+		</item>
+		<item>
+			<service>Elastic retainers</service>
+			<price>650 Ron</price>
+		</item>
+		<item>
+			<service>Retainers for whitening, fluoridation (2 arch)</service>
+			<price>200 Ron</price>
+		</item>
+		<item>
+			<service>Dentures Kemmeny</service>
+			<price>400 Ron</price>
+		</item>
+		<item>
+			<service>Crown ablation</service>
+			<price>50 Ron</price>
+		</item>
+	</protetica>
+
+
+	<!-- tarife implantologie -->
+	<implantologie>
+		<item>
+			<service>Titanium dental implant (integration 6 months)</service>
+			<price>450 EUR</price>
+
+		</item>
+		<item>
+			<service>Titanium dental implant (integration 1-3 months)</service>
+			<price>500 EUR</price>
+
+		</item>
+		<item>
+			<service>Sinus lift(extern)</service>
+			<price>450-500 EUR</price>
+
+		</item>
+		<item>
+			<service>Bones addition</service>
+			<price>300-400 EUR</price>
+
+		</item>
+		<item>
+			<service>Abutment + porcelain fused to metal crown</service>
+			<price>300 EUR</price>
+
+		</item>
+		<item>
+			<service>Abutment + porcelain fused to zirconium crown</service>
+			<price>350 EUR</price>
+		</item>
+	</implantologie>
+
+
+	<!-- tarife acid hialuronic -->
+	<hialuronic>
+		<item>
+			<service>Juvéderm Ultra Smile 1ml</service>
+			<price>1150 LEI</price>
+		</item>
+		<item>
+			<service>Juvéderm Ultra Smile 0.55ml</service>
+			<price>700 LEI</price>
+		</item>
+	</hialuronic>
+
+
+	<!-- tarife chirurgie orodentara -->
+	<chirurgie>
+		<item>
+			<service>Consultation</service>
+			<price>100 LEI</price>
+		</item>
+		<item>
+			<service><h4>Extraction</h4></service>
+		</item>
+		<item>
+			<service>Single rooted</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Multirooted</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>With root separation</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Alveolar curettage</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Alveoloplasty</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Wisdom teeth</service>
+			<price>250LEI</price>
+		</item>
+		<item>
+			<service>Odontectomy</service>
+			<price>300 LEI</price>
+		</item>
+		<item>
+			<service>Oral-Antral fistula repair</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Partial sinus curettage</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service><h4>Partial sinus curettage</h4></service>
+		</item>
+
+		<item>
+			<service>Incisors and canines</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Premolars</service>
+			<price>270 LEI</price>
+		</item>
+		<item>
+			<service>Molars</service>
+			<price>320-350 LEI</price>
+		</item>
+		<item>
+			<service>Hemisection</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Root amputation</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Chistectomy</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Subgingival Curettage/tooth</service>
+			<price>100 LEI</price>
+		</item>
+		<item>
+			<service><h4>Periodontology surgery</h4>
+		</service>
+	</item>
+	<item>
+		<service>Single rooted</service>
+		<price>70 LEI</price>
+	</item>
+	<item>
+		<service>Multi rooted</service>
+		<price>80 LEI</price>
+	</item>
+	<item>
+		<service>Operculectomy</service>
+		<price>60 LEI</price>
+	</item>
+	<item>
+		<service>Surgical exposure</service>
+		<price>150-200 LEI</price>
+	</item>
+	<item>
+		<service>Gingivectomy/tooth</service>
+		<price>60 LEI</price>
+	</item>
+	<item>
+		<service>Gingivoosteoplasty/tooth</service>
+		<price>80 LEI</price>
+	</item>
+	<item>
+		<service>Gingivoplasty per quadrant</service>
+		<price>180 LEI</price>
+	</item>
+	<item>
+		<service>Alveolectomy per quadrant</service>
+		<price>100-200 LEI</price>
+	</item>
+	<item>
+		<service>Frenectomy</service>
+		<price>100 LEI</price>
+	</item>
+	<item>
+		<service>Plastie brida</service>
+		<price>70 LEI</price>
+	</item>
+	<item>
+		<service>Vestibuloplasty per quadrant</service>
+		<price>100-150 LEI</price>
+	</item>
+	<item>
+		<service>Local excision</service>
+		<price>100-150 LEI</price>
+	</item>
+	<item>
+		<service>Removal of epulis</service>
+		<price>100-150 LEI</price>
+	</item>
+	<item>
+		<service>Incision and drainage of endo-perio abscess</service>
+		<price>50 LEI</price>
+	</item>
+</chirurgie>
+
+<!-- tarife cosmetica -->
+<cosmetica>
+	<item>
+		<service>Initial consult, treatment plan</service>
+		<price>100 Ron</price>
+	</item>
+	<item>
+		<service>Emergency treatment (Abscess drainage, Pulp capping)</service>
+		<price>100 Ron</price>
+	</item>
+	<item>
+		<service>Ultrasound scaling, prophy jet, professional brushing</service>
+		<price>200 Ron</price>
+	</item>
+	<item>
+		<service>Composite obturation small/medium cavity</service>
+		<price>100Ron</price>
+	</item>
+	<item>
+		<service>Composite obturation large cavity</service>
+		<price>150 Ron</price>
+	</item>
+	<item>
+		<service>Temporary filling with CA(OH)2, eugenat de Zn</service>
+		<price>100 Ron</price>
+	</item>
+	<item>
+		<service>Singlerooted teeth pulpectomy</service>
+		<price>200 Ron</price>
+	</item>
+	<item>
+		<service>Multirooted teeth pulpectomy</service>
+		<price>250 Ron</price>
+	</item>
+	<item>
+		<service>Gangrene treatment tooth</service>
+		<price>35 Ron</price>
+	</item>
+	<item>
+		<service>Whitening dental lamp fitted with a Whitening Accelerator</service>
+		<price>500 Ron</price>
+	</item>
+	<item>
+		<service>Endodontic whitening</service>
+		<price>100 Ron</price>
+	</item>
+	<item>
+		<service>Glassionomer filling, fissure sealants</service>
+		<price>60 Ron</price>
+	</item>
+	<item>
+		<service>Tray- based local fluoridation</service>
+		<price>60 Ron</price>
+	</item>
+	<item>
+		<service>Restoration composite</service>
+		<price>150 Ron</price>
+	</item>
+	<item>
+		<service>Dental piercing</service>
+		<price>150 Ron</price>
+	</item>
+</cosmetica>
+
+<!-- Tarife ortodontie -->
+<ortodontie>
+	<item>
+		<service>Initial consult</service>
+		<price>100 LEI</price>
+	</item>
+	<item>
+		<service>Impressions and soapy models</service>
+		<price>100 LEI</price>
+	</item>
+	<item>
+		<service>Tracing of Pan /Ceph</service>
+		<price>30 LEI</price>
+	</item>
+	<item>
+		<service>Control and activation of fixed ceramic appliances</service>
+		<price>100 LEI</price>
+	</item>
+	<item>
+		<service>Control and activation of fixed metal appliances</service>
+		<price>80 LEI</price>
+	</item>
+	<item>
+		<service>Control and activation of orthopedic appliances</service>
+		<price>50 LEI</price>
+	</item>
+	<item>
+		<service>Orthodontic removable appliance</service>
+		<price>700-900 LEI*</price>
+	</item>
+	<item>
+		<service>Cementation of metal brackets / arch</service>
+		<price>600-1800 LEI**</price>
+	</item>
+	<item>
+		<service>Cementation of Damon metal brackets / arch</service>
+		<price>2700 LEI</price>
+	</item>
+	<item>
+		<service>Cementation of ceramic (tooth colored) brackets / arch</service>
+		<price>2200-2800 LEI***</price>
+	</item>
+	<item>
+		<service>Cementation of Damon ceramic brackets / arch</service>
+		<price>3500 LEI</price>
+	</item>
+	<item>
+		<service>Cementation of Sapphire Ice brackets/ arch</service>
+		<price>3200 LEI</price>
+	</item>
+	<item>
+		<service>Automatic circuit breaker</service>
+		<price>1000 LEI</price>
+	</item>
+	<item>
+		<service>Face bow</service>
+		<price>400 LEI</price>
+	</item>
+	<item>
+		<service>Delaire’s Mask</service>
+		<price>500 LEI</price>
+	</item>
+	<item>
+		<service>Chin strap + Head gear</service>
+		<price>450 LEI</price>
+	</item>
+	<item>
+		<service>Fixed retainers</service>
+		<price>200 LEI</price>
+	</item>
+	<item>
+		<service>Removable retainers</service>
+		<price>250 LEI</price>
+	</item>
+	<item>
+		<service>Retainer</service>
+		<price>450 LEI</price>
+	</item>
+	<item>
+		<service>Repairs for removable appliances</service>
+		<price>100-200 LEI*** </price>
+	</item>
+	<item>
+		<service>Acrylic retainers</service>
+		<price>150 LEI</price>
+	</item>
+	<item>
+		<service>Adjustments of retainers</service>
+		<price>100-150 LEI*</price>
+	</item>
+	<item>
+		<service>Progress study models</service>
+		<price>40 LEI</price>
+	</item>
+	<item>
+		<service>Lingual bar, Nance button</service>
+		<price>300 LEI</price>
+	</item>
+	<item>
+		<service>Ring recementation</service>
+		<price>20 LEI</price>
+	</item>
+	<item>
+		<service>Addition of a new metalic bracket</service>
+		<price>40 LEI</price>
+	</item>
+	<item>
+		<service>Addition of a new ceramic bracket</service>
+		<price>70 LEI</price>
+	</item>
+	<item>
+		<service><br/>* depends on the complexity</service>
+		<price></price>
+	</item>
+	<item>
+		<service>** depends on what kind of brackets are used</service>
+		<price></price>
+	</item>
+	<item>
+		<service>***depends on deterioration</service>
+		<price></price>
+	</item>
+</ortodontie>
+
+
+
+</content>

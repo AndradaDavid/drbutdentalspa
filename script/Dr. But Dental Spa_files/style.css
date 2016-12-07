@@ -1,0 +1,730 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #5cc6d0;
+	font-family: Arial, sans-serif; 
+}
+
+header {
+	width: 100%;
+	background: #ffffff;
+	height: 100px;
+	position: fixed;
+	z-index:1000;
+}
+
+header nav { 
+	float: right; 
+	margin-right: 150px;
+	margin-top: 30px;
+}
+
+header nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+
+header li{
+	margin-top: 9px;
+	float: left;
+	padding-left: 50px;
+}
+
+header li a { 
+	color: #757574; 
+	font-size: 21px; 
+	text-decoration: none; 
+	
+}
+header li a.active { 
+	color: #5cc6d0; 
+	opacity:1; 
+	border: 1px solid #5cc6d0;
+	border-radius: 5px; 
+	padding: 15px;
+}
+header li a:hover { 
+	color: #757574; 
+	opacity:1;  
+}
+header li a.active:hover {
+	color: #5cc6d0;
+} 
+
+
+/*Common*/
+section {
+	min-width: 960px;
+}
+
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.inline-display {
+	display: inline-block;
+}
+
+*.darken *{
+	color: #333333;
+}
+
+
+.embed {
+	width: 100%;
+	height: 95%;
+	position: relative;
+	display: none;
+	margin-left:0 auto;
+	margin-right: 0 auto;
+	padding-top: 1%;
+
+}
+
+.wrapper {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	padding: 10px 15px 15px 15px;
+	width: 90%;
+}
+h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+p {
+	line-height: 16px;
+}
+p:first-child {
+	margin-top: 0;
+}
+
+/*#scrollbox3 {
+    overflow: auto;
+    width: 400px;
+    height: 360px;
+    padding: 0 5px;
+    border: 1px solid #b7b7b7;
+}*/
+
+.track3 {
+    width: 10px;
+    background: rgba(250, 250, 0, 0);
+    margin-right: 2px;
+    border-radius: 10px;
+    -webkit-transition: background 250ms linear;
+    transition: background 250ms linear;
+}
+
+.track3:hover,
+.track3.dragging {
+    background: #d9d9d9; /* Browsers without rgba support */
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.handle3 {
+    width: 5px;
+    right: 0;
+    background: #ffffff;
+    //background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    -webkit-transition: width 250ms;
+    transition: width 250ms;
+}
+
+.track3:hover .handle3,
+.track3.dragging .handle3 {
+    width: 10px;
+}
+
+/*Acasa*/
+#acasa { 
+	width: 100%; 
+	height: 800px;
+}
+
+
+#acasa .bcg{
+	background:url('/images/258-overlay.png');
+	color: #fff;
+	height: 800px;
+	margin: 0;
+	background-size: cover;
+}
+
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#acasa .acasa-content {
+	position: relative;
+	width: 60%;
+	margin-right: auto;
+	margin-left: 20%;
+	padding-top: 20%;
+}
+
+#acasa .title-main {
+	color: #fff8de;
+	font-size: 60px;
+	line-height: 38px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+
+#acasa .description {
+	font-size: 36px;
+	margin-top: 35px;
+}
+
+#acasa .acasa-cta {
+	margin-top: 35px;
+	}
+
+#acasa .acasa-cta a {
+	
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.button {
+	font-size: 16px;
+}
+
+.button a {
+	color: #ffffff;
+	padding: 20px;
+	background-color: #5cc6d0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.button a:hover {
+	text-decoration: none;
+}
+
+
+
+
+/*Despre*/
+#despre {
+	background-color: #eaebeb;
+	color: #000000;
+	height: 560px;
+	margin: 0;
+}
+
+#despre .bcg {
+	background-color: #eaebeb;
+}
+
+#despre .badge {
+	width: 100%;
+	position: relative;
+	padding: 50px;
+}
+
+#despre .badge .icon {
+	float: left;
+}
+
+#despre .badge .description {
+	width: 600px;
+	color: #757574;
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+#despre .badge .description .name,
+#despre .badge .description .work {
+	color: #333333;
+}
+
+#despre .badge .description .name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#despre .badge.tibi-badge {
+	/*margin-left: 250px;*/
+}
+
+#despre .badge.tibi-badge .description {
+	margin-left: 20px;
+	float: left;
+	
+}
+
+#despre .badge.adriana-badge {
+	float: right;
+	/*margin-right: 250px;*/
+	margin-top: 25px;
+}
+
+#despre .badge.adriana-badge .icon {
+	float: right;
+}
+
+#despre .badge.adriana-badge .description {
+	float: right;
+	text-align: right;
+	margin-right: 20px;
+}
+
+/*Servicii*/
+#servicii {
+	background-color: #71bcc4;
+	/*height: auto;*/
+}
+
+#servicii .servicii-content {
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+#servicii article {
+	width: 400px;
+	height: 95px;
+	display: inline-block;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 0px 0px 30px 50px;
+	vertical-align: middle;
+}
+
+#servicii article .icon {
+	width: 76px;
+	height: 58px;
+	float: left;
+}
+
+#servicii article .title {
+	float: left;
+	margin-left: 25px;
+	width: 229px;
+	height: 58px;
+	letter-spacing: 2px;
+	vertical-align: middle;
+}
+#servicii article.parodontologie .title,
+#servicii article.urgente .title,
+#servicii article.terapia .title {
+	line-height: 58px;
+}
+
+#servicii article.protetica .title,
+#servicii article.cosmetica .title,
+#servicii article.profilaxie .title {
+	margin-top: 8px;
+}
+
+#servicii article.implantologie .title,
+#servicii article.hialuronic .title,
+#servicii article.ortodontie .title {
+	margin-top: -4px;
+}
+
+#servicii .servicii-details {
+	display: none;
+	float: right;
+	width: 51%;
+	height: 326px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	margin-right: 12%;
+	padding: 8px;
+}
+
+
+#servicii article.profilaxie.darken .icon {content: url('/images/icon-profilaxie-black.png');}
+#servicii article.cosmetica.darken .icon,
+#tarife article.hialuronic.darken .icon {content: url('/images/icon-hialuronic-black.png');}
+#servicii article.hialuronic.darken .icon,
+#tarife article.cosmetica.darken .icon {content: url('/images/icon-cosmetica-black.png');}
+#servicii article.parodontologie.darken .icon {content: url('/images/icon-prodontologie-black.png');}
+#servicii article.protetica.darken .icon,
+#tarife article.protetica.darken .icon {content: url('/images/icon-protetica-black.png');}
+#servicii article.implantologie.darken .icon,
+#tarife article.chirurgie.darken .icon {content: url('/images/icon-chirurgie-black.png');}
+#servicii article.ortodontie.darken .icon,
+#tarife article.ortodontie.darken .icon {content: url('/images/icon-ortodontie-black.png');}
+#servicii article.urgente.darken .icon {content: url('/images/icon-urgente-black.png');}
+#servicii article.terapia.darken .icon {content: url('/images/icon-terapia-black.png');}
+
+#servicii .servicii-details .embed {
+	overflow: hidden;
+}
+
+/*Media*/
+#media {
+	height: 400px;
+}
+
+#media .bcg {
+	background: url('/images/dental_tools.png') no-repeat;
+	margin: 0;
+}
+
+#media .media-wrapper {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#media .facebook-content,
+#media .twitter-content {
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 380px;
+	text-align: center;
+	margin-top: 115px;
+}
+
+#media .twitter-content {
+	margin-left: 180px;
+}
+
+#media .facebook-content img,
+#media .twitter-content img {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#media .facebook-details,
+#media .twitter-details {
+	float: right;
+	color: #ffffff;
+	margin-top: 35px;
+	width: 112px;
+}
+
+#media .facebook-details .result-likes,
+#media .twitter-details .result-followers {
+	font-size: 60px;
+}
+
+#media .facebook-details .likes-text,
+#media .twitter-details .followers-text {
+	font-size: 36px;
+}
+
+
+/*Appointment*/
+#appointment {
+	width: 100%;
+	height: 270px;
+	background-color: #333333;
+}
+
+#appointment .appointment-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center
+}
+
+#appointment .appointment-content .appointment-text {
+	color: #ffffff;
+	font-size: 33px;
+	padding-top: 81px;
+}
+
+#appointment .appointment-content .appointment-cta {
+	padding-top: 40px;
+}
+#appointment .appointment-content .appointment-cta a {
+    padding-left: 100px;
+    padding-right: 105px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/*Galerie*/
+#galerie {
+	background-color: #333333;
+	height: 800px;
+}
+
+/*Tarife*/
+#tarife {
+	background-color: rgba(88, 146, 156, 0.64);
+	height: auto;
+}
+
+#tarife .tarife-content {
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+#tarife article {
+	width: 400px;
+	height: 190px;
+	display: inline-block;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 0px 0px 30px 50px;
+	vertical-align: middle;
+}
+
+#tarife article .description {
+	width: 239px;
+	font-size: 12px;
+	margin-left: 15px;
+	float: left;
+}
+
+#tarife article .description .title {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#tarife article .description .short-description {
+	letter-spacing: 1.1px;
+	margin-bottom: 10px;
+}
+#tarife article .description .preturi-cta {
+	border: 1px solid #fff;
+    border-radius: 5px;
+    width: 50px;
+    padding: 5px 11px;
+    cursor: pointer;
+}
+
+#tarife article.darken .description .preturi-cta {
+	border: 1px solid #333333;
+}
+
+#tarife article .icon {
+	width: 76px;
+	height: 58px;
+	float: left;
+}
+
+#tarife .tarife-details {
+	display: none;
+	float: right;
+	width: 51%;
+	height: 543px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	margin-right: 12%;
+	padding: 8px;
+}
+#tarife .tarife-details .embed {
+	overflow: hidden;
+}
+
+#tarife .tarife-details .embed .wrapper {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#tarife .tarife-details ul li {
+	list-style: none;
+	display: block;
+	margin-bottom: 5px;
+	line-height: 25px;
+}
+
+#tarife .tarife-details ul li .service {
+	float: left;
+	width: 80%;
+}
+
+#tarife .tarife-details ul li .price {
+	float: right;
+	text-align: right;
+	width: 20%;
+}
+
+
+/*Pareri*/
+#pareri {
+	background: url('/images/smiling.png');
+	height: 620px;
+}
+
+#pareri .pareri-container {
+	margin-left: auto;
+    padding-top: 13%;
+    margin-right: auto;
+    width: 62%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 2.5px;
+
+}
+
+#pareri .pareri-container .author {
+	font-weight: bold;
+	padding-top: 10px;
+	font-size: 26px;
+	display: block;
+}
+
+
+/*Contact*/
+#contact {
+	background-color: #f3f2f2;
+	height: auto;
+}
+
+#contact .contact-header {
+	height: 200px;
+	text-align: center;
+}
+
+#contact .contact-header .contact-title {
+	padding-top: 65px;
+	font-size: 48px;
+	color: #71bcc4;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+#contact .contact-header .contact-subtitle {
+	color: #757574;
+	padding-top: 20px;
+	letter-spacing: 2px;
+	font-size: 22px;
+}
+
+#contact .contact-map {
+	height: 600px;
+	width: 100%;
+	margin-top: 25px;
+	background: url('/images/map.png') no-repeat;
+}
+
+#contact .contact-referrences {
+	width: 70%;
+	height: 155px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+#contact .contact-referrences > div  {
+	display: table-cell;
+	width: 30%;
+	vertical-align: top;
+	
+}
+
+#contact .contact-referrences .icon {
+	width: 76px;
+	height: 58px;
+	float: left;
+}
+
+#contact .contact-referrences .contact-contact .icon {background: url('/images/icon-message.png');}
+#contact .contact-referrences .contact-orar .icon {background: url('/images/icon-clock.png');}
+#contact .contact-referrences .contact-adresa .icon {background: url('/images/icon-compas.png');}
+
+#contact .contact-referrences .details {
+	padding-left: 15px;
+	width: 300px;
+	float: left;
+}
+
+#contact .contact-referrences .details .title {
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(88, 146, 156, 0.74);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#contact .contact-referrences .details .text {
+	padding-top: 18px;
+	font-size: 16px;
+	color: rgba(88, 146, 156, 0.64);
+
+}
+
+#contact .contact-referrences .details .text p {
+	line-height: 15px;
+	margin: 0px 0px 5px 0px;
+	letter-spacing: 2px;
+}
+
+#contact .contact-form {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+
+}
+
+#contact .contact-form .name-field,
+#contact .contact-form .mail-field {
+	width: 50%;
+	float: left;
+}
+
+#contact .contact-form .message-field {
+	padding-top: 120px;
+}
+
+#contact .contact-form label,
+#contact .contact-form input {
+	display: block;
+}
+
+#contact .contact-form label {
+	text-indent: 11px;
+    padding-bottom: 4px;
+    font-size: 18px;
+    color: #80ABB3;
+}
+
+#contact .contact-form .name-field input,
+#contact .contact-form .mail-field input,
+#contact .contact-form .message-field textarea {
+	width: 96%;
+    font-size: 29px;
+    border-radius: 5px;
+    height: 50px;
+    color: rgba(88, 146, 156, 0.74);
+    border: 0.2px solid rgba(88, 146, 156, 0.34);
+    text-indent: 13px;
+    background-color: #F3F2F2;
+}
+
+#contact .contact-form .mail-field input,
+#contact .contact-form .message-field textarea {
+	width: 100%;
+}
+
+#contact .contact-form .message-field textarea {
+	height: 250px;
+}
+
+

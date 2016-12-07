@@ -1,0 +1,18 @@
+{
+  "name": "drbutdentalspa",
+  "version": "1.0.0",
+  "description": "Medical website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dental",
+    "site",
+    "but",
+    "doctor",
+    "parallax"
+  ],
+  "author": "Andrada David",
+  "license": "ISC"
+}

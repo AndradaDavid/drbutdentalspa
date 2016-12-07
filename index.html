@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Dr. But Dental Spa </title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+	<!-- Scripts -->
+	<script src="/script/jquery-2.2.0.min.js"></script>
+	<script src="/script/lightslider.js"></script>
+	<script src="/script/imagesloaded.js"></script>
+	<script src="/script/skrollr.js"></script>
+	<script src="/script/enscroll-0.6.1.min.js"></script>
+	<script src="/script/script.js"></script>
+	<script src="/script/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="/script/wow/jquery.js"></script>
+	
+
+    <!-- <link rel="stylesheet" href="/style/reset.css" title="Reset css style">  -->
+	<link id="mainStyle" rel="stylesheet" href="/style/style.css" title="Main css style">
+	<link href="/style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+	<link rel="stylesheet" type="text/css" href="/style/wow/style.css" />
+	<link type="text/css" rel="stylesheet" href="/style/lightslider.css" />                  
+	
+</head>
+
+<body class="loading" lang={{language}}> 
+	<!--header floatable-->
+	<div class="orientation-wrapper">
+	</div>
+	<header>
+		<nav>
+			<div class="menu-icon"></div>
+			<ul>
+				<li>
+					<a class="active" href="#acasa">
+						<img class="nav-icon" src="/images/home.png"/>
+						<span class="nav-text">{{home}}</span>
+					</a>
+				</li>
+				<li>
+					<a href="#despre">
+						<img class="nav-icon" src="/images/aboutus_icon.png"/>
+						<span class="nav-text">{{about us}}</span>
+					</a>
+				</li>
+				<li>
+					<a href="#servicii">
+						<img class="nav-icon" src="/images/services_icon.png"/>
+						<span class="nav-text">{{services}}</span>
+					</a>
+				</li>
+				<li>
+					<a href="#galerie">
+						<img class="nav-icon" src="/images/gallery_icon.png"/>
+						<span class="nav-text">{{galery}}</span>
+					</a>
+				</li>
+				<li>
+					<a href="#tarife">
+						<img class="nav-icon" src="/images/prices_icon.png"/>
+						<span class="nav-text">{{prices}}</span>
+					</a>
+				</li>
+				<li>
+					<a href="#pareri">
+						<img class="nav-icon" src="/images/feedback_1_icon.png"/>
+						<span class="nav-text">{{guestbook}}</span>
+					</a>
+				</li>
+				<li>
+					<a href="#contact">
+						<img class="nav-icon" src="/images/contact_icon.png"/>
+						<span class="nav-text">{{contact}}</span>
+					</a>
+				</li>
+
+			</ul>
+		</nav>
+	</header>
+
+	<section id="acasa" class="homeSlide">
+		<ul id="acasa-slider">
+				<!-- <li class="item-surgery">
+					<div class="bcg" 
+						data-top="background-position: 50% 0;"
+						data-300-top="background-position: 50% -100px;"
+						data-anchor-target=".acasa-content">
+		
+						<div class="acasa-content"  
+						data-10-top="opacity: 0" 
+						data-200-top="opacity: 0.7"
+						data-400-top="opacity: 1"
+						data-anchor-target="#acasa .title-main">
+
+							<div class="title-main">Dr.But Dental Spa</div>
+							<div class="description">{{moto}}</div>
+							<div class="button acasa-cta">
+								<a href="#despre">{{more}}</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="acasa-content">
+						<div class="title-main">Dr.But Dental Spa</div>
+						<div class="description">{{moto}}</div>
+						<div class="button acasa-cta">
+							<a href="#despre">{{more}}</a>
+						</div>
+					</div>
+				</li> -->
+				{{#showRO}}
+				<li class="item-surgery">
+					<div class="surgery-content">
+						<div class="title-main">Dr.But Dental Spa</div>
+							<div class="description">{{moto}}</div>
+							<div class="button acasa-cta">
+								<a href="#despre">{{more}}</a>
+							</div>
+						</div>
+					</div>	
+				</li>
+				<li class="item-emergency">
+					<div class="emergency-content">
+						<div class="tel">0746 049 210</div>
+						<div class="pret">350 Ron</div>
+					</div>
+				</li>
+				{{/showRO}}
+				{{#showEN}}
+				<li class="item-surgery">
+					<div class="surgery-content">
+						<div class="title-main">Dr.But Dental Spa</div>
+							<div class="description">{{moto}}</div>
+							<div class="button acasa-cta">
+								<a href="#despre">{{more}}</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="item-emergency {{language}}">
+					<div class="emergency-content">
+						<div class="tel">0746 049 210</div>
+						<div class="pret">350 Ron</div>
+					</div>
+				</li>
+				<li class="item-damon">
+					<div class="damon-content">
+						<div class="title-main">Damon System</div>
+						<div class="description">Braces are the beginning, but the system makes the smile.</div>
+						<div class="button acasa-cta">
+								<a href="#servicii">{{read_more}}</a>
+							</div>
+					</div>
+				</li>
+				{{/showEN}}
+				
+				
+				<!-- <li><img src="/images/pink.png" alt="" title=""/></li>  -->
+			</ul>
+		
+	</section>	
+
+	<section id="despre" class="homeSlide">
+		<div class="bcg"> 
+			<div class="hsContainer">
+				<div class="despre-content"> 
+
+					<div class="badge tibi-badge"
+					data-200-top="padding-left: 300px; opacity: 1;"
+					data-500-top="padding-left: 0px; opacity: 0;"
+					data-anchor-target="#despre">
+						<div class="icon">
+							<img src="/images/tibi_logo.png"/>
+						</div>
+						<div class="description">
+							<div class="reply">{{description_tibi}}</div>
+							<div class="name">Dr. But Gheorghe Tiberiu</div>
+							<div class="work">{{title_tibi}}</div>
+						</div>
+					</div>
+					<div class="badge adriana-badge"
+					data-300-top="padding-right: 300px; opacity: 1;"
+					data-500-top="padding-right: 0px; opacity: 0;"
+					data-anchor-target="#despre .adriana-badge">
+						<div class="icon">
+							<img src="/images/adriana_logo.png"/>
+						</div>
+						<div class="description">
+						<div class="reply">{{description_ada}}</div>
+						<div class="name">Dr. But Adriana</div>
+						<div class="work">{{title_ada}}</div>
+					</div>
+			</div>
+		</div>
+	</section>	
+
+	<section id="servicii" class="homeSlide">
+
+		<div class="servicii-content">
+
+			<article class="profilaxie first">
+				<div class="icon">
+					<img src="/images/icon-profilaxie.png"/>
+				</div>
+				<div class="title">{{profilaxie}}</div>
+			</article>
+
+			<div class="servicii-details">
+
+				<div class="embed" data-content="profilaxie">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{title_profilaxie}}</h4>
+							<p>{{article_profilaxie_1}}</p>
+							<p>{{article_profilaxie_2}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="parodontologie">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{parodontologie}}</h4>
+							<p>{{{article_paro_1}}}</p>
+							<p>{{{article_paro_2}}}</p>
+							<p>{{{article_paro_3}}}</p>
+							<p>{{{article_paro_4}}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="cosmetica">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{cosmetica}}</h4>
+							<p>{{{article_cosm_1}}}</p>
+							<p>{{{article_cosm_2}}}</p>
+							<p>{{{article_cosm_3}}}</p>
+							<p>{{{article_cosm_4}}}</p>
+							<p>{{{article_cosm_6}}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="protetica">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{protetica}}</h4>
+							<p>{{{article_prot_1}}}</p>
+							<p>{{{article_prot_2}}}</p>
+							<p>{{{article_prot_3}}}</p>
+							<p>{{{article_prot_4}}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="hialuronic">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{reintinerire}}</h4>
+							<p>{{{article_reint_1}}}</p>
+							<p>{{{article_reint_2}}}</p>
+							<p>{{{article_reint_3}}}</p>	
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="terapia">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{odontoterapia}}</h4>
+							<p>{{{article_odon_1}}}</p>
+							<p>{{{article_odon_2}}}</p>
+							<p>{{{article_odon_3}}}</p>
+							<p>{{{article_odon_4}}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="ortodontie" >
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{ortodontia}}</h4>
+							<p>{{{article_orto_1}}}</p>
+							<p>{{{article_orto_2}}}</p>
+							<p>{{{article_orto_3}}}</p>
+							<p>{{{article_orto_4}}}</p>
+							<p>{{{article_orto_5}}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="implantologie">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{chirurgie}}</h4>
+							<p>{{{article_chir_1}}}</p>
+							<p>{{{article_chir_2}}}</p>
+							<p>{{{article_chir_3}}}</p>
+							<p>{{{article_chir_4}}}</p>
+							<p>{{{article_chir_5}}}</p>
+							<p>{{{article_chir_6}}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="embed" data-content="urgente">
+					<div class="wrapper">
+						<div class="text-content">
+							<h4>{{urgente}}</h4>
+							<p>{{{article_urg_1}}}</p> 
+							<p>{{{article_urg_2}}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<article class="cosmetica">
+				<div class="icon">
+					<img src="/images/icon-hialuronic.png"/>
+				</div>
+				<div class="title">{{cosmetica}}</div>
+			</article>
+			<article class="terapia">
+				<div class="icon">
+					<img src="/images/icon-terapia.png"/>
+				</div>
+				<div class="title">{{odontoterapia}}</div>
+			</article>
+			<article class="parodontologie">
+				<div class="icon">
+					<img src="/images/icon-prodontologie.png"/>
+				</div>
+				<div class="title">{{parodontologie}}</div>
+			</article>
+			<article class="protetica">
+				<div class="icon">
+					<img src="/images/icon-protetica.png"/>
+				</div>
+				<div class="title">{{protetica}}</div>
+			</article>
+			<article class="implantologie">
+				<div class="icon">
+					<img src="/images/icon-chirurgie.png"/>
+				</div>
+				<div class="title">{{chirurgie}}</div>
+			</article>
+			<article class="ortodontie">
+				<div class="icon">
+					<img src="/images/icon-ortodontie.png"/>
+				</div>
+				<div class="title">{{ortodontia}}</div>
+			</article>
+			<article class="hialuronic">
+				<div class="icon">
+					<img src="/images/icon-cosmetica.png"/>
+				</div>
+				<div class="title">{{reintinerire}}</div>
+			</article>
+			<article class="urgente">
+				<div class="icon">
+					<img src="/images/icon-urgente.png"/>
+				</div>
+				<div class="title">{{urgente}}</div>
+			</article>
+
+		</div>
+	</section>
+
+	<section id="media">
+		<div class="bcg"> 
+			<div class="media-wrapper">
+				<div class="facebook-content">
+					<img src="/images/facebook_logo.png"/>
+					<div class=facebook-details>
+						<div class="count result-likes">220</div>
+						<div class="likes-text">likes</div>
+					</div> 
+				</div>
+				<div class="twitter-content">
+					<img src="/images/twitter_logo.png"/>
+					<div class=twitter-details>
+						<div class="count result-followers">121</div>
+						<div class="followers-text">followers</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<!-- <div class="result-likes"></div> -->
+	</section>
+	<section id="appointment">
+		<div class="appointment-content">
+			<div class="appointment-text">{{schedule_meeting}}</div>
+			<div class="button appointment-cta cta">
+				<a href="#contact">{{detalii}}</a>
+			</div>
+		</div>
+	</section>
+	<section id="galerie">
+		<div class="galerie-container">
+			<ul id="galerie-slider">
+				<li><img src="/images/yellow.png" alt="" title=""/></li>
+				<li><img src="/images/grey.png" alt="" title=""/></li>
+				<li><img src="/images/pink.png" alt="" title=""/></li>
+			</ul>
+		</div>
+
+	</section>
+	<section id="tarife">
+		<div class="tarife-content">
+
+			<article class="protetica first">
+				<div class="icon">
+					<img src="/images/icon-protetica.png"/>
+				</div>
+				<div class="description">
+					<div class="title">{{protetica}}</div>
+					<div class="short-description">{{protetica_summary}}</div>
+					<div class="button preturi-cta">Preturi</div>
+				</div>
+			</article>
+
+			<div class="tarife-details">
+				<div class="embed" data-content="protetica">
+					<div class="wrapper"><div class="text-content"><ul></ul></div></div>
+				</div>
+				<div class="embed" data-content="cosmetica">
+					<div class="wrapper"><div class="text-content"><ul></ul></div></div>
+				</div>
+				<div class="embed" data-content="hialuronic">
+					<div class="wrapper"><div class="text-content"><ul></ul></div></div>
+				</div>
+				<div class="embed" data-content="ortodontie" >
+					<div class="wrapper"><div class="text-content"><ul></ul></div></div>
+				</div>
+				<div class="embed" data-content="implantologie">
+					<div class="wrapper"><div class="text-content"><ul></ul></div></div>
+				</div>
+				<div class="embed" data-content="chirurgie">
+					<div class="wrapper"><div class="text-content"><ul></ul></div></div>
+				</div>
+			</div>
+
+			<article class="implantologie">
+				<div class="icon">
+					<img src="/images/icon-chirurgie.png"/>
+				</div>
+				<div class="description">
+					<div class="title">{{implantologie}}</div>
+					<div class="short-description">{{implantologie_summary}}</div>
+					<div class="button preturi-cta">{{preturi}}</div>
+				</div>
+			</article>
+			<article class="hialuronic">
+				<div class="icon">
+					<img src="/images/icon-hialuronic.png"/>
+				</div>
+				<div class="description">
+					<div class="title">{{reintinerire}}</div>
+					<div class="short-description">{{reintinerire_summary}}</div>
+					<div class="button preturi-cta">{{preturi}}</div>
+				</div>
+			</article>
+			<article class="chirurgie">
+				<div class="icon">
+					<img src="/images/icon-chirurgie.png"/>
+				</div>
+				<div class="description">
+					<div class="title">{{chirurgie_oro}}</div>
+					<div class="short-description">{{chirurgie_summary}}</div>
+					<div class="button preturi-cta">{{preturi}}</div>
+				</div>
+			</article>
+			<article class="ortodontie">
+				<div class="icon">
+					<img src="/images/icon-ortodontie.png"/>
+				</div>
+				<div class="description">
+					<div class="title">{{ortodontia}}</div>
+					<div class="short-description">{{ortodontia_summary}}</div>
+					<div class="button preturi-cta">{{preturi}}</div>
+				</div>
+			</article>
+			<article class="cosmetica">
+				<div class="icon">
+					<img src="/images/icon-cosmetica.png"/>
+				</div>
+				<div class="description">
+					<div class="title">{{cosmetica}}</div>
+					<div class="short-description">{{cosmetica_summary}}</div>
+					<div class="button preturi-cta">{{preturi}}</div>
+				</div>
+			</article>
+
+		</div>					
+	</section>
+	<section id="pareri">
+		<div class="pareri-container">
+			<ul id="pareri-texts">
+				<li>
+					<span>Am ales coroana din portelan pe zirconium si s-a dovedit a fi una din cele mai bune decizii ever !!! D-nul dr. But Tiberiu si echipa dansului efectiv duc stomatologia la next level printr-un tratament super-profesionist, nivel ridicat de servicii, maiestrie - si preturi foarte rezonabile. Foarte talentat ! Recomand cu incredere 5*</span>
+					<span class="author">- Narcis -</span>	
+				</li>
+				<li>
+					<span>Recomand tuturor acest cabinet stomatologic pentru ca BUT inseamna cu adevarat Bine Tratat, Uman, Timpul tau e respectat. Salutari din West Yorkshire, UK !</span>
+					<span class="author">- Valentina -</span>
+				</li>
+				<li>
+					<span>Datorita unor experinte neplacute, de fiecare data cand trebuie sa ma duc la dentist sunt pur si simplu inspaimantata. Insa de data aceasta a fost o experienta placuta. Ceea ce a contat pentru mine a fost faptul ca nu am simtit durere, a fost foarte atent, a lucrat repede si ca imi respecta timpul (adica nu te plimba de 3-4 ori pentru o lucrare cand o poate face la prima sedinta). Recomand cu incredere!</span>
+					<span class="author">- Gabriela -</span>
+				</li>
+				<li>
+					<span>If you would like to increase your familiarity simply keep visiting this web site and be updated with the most up-to-date information posted here.</span>
+					<span class="author">- Ugg Bailey Mini 3352 -</span>
+				</li>
+				<li>
+					<span>Calitate, promtitudine,profesionalism. Rececomand fara ezitare serviciile dr. But Tiberiu.</span>
+					<span class="author">- Dorin Axente -</span>	
+				</li>
+				<li>
+					<span>Pe parcursul celor 6 ani de cand ne cunoastem atat eu cat si familia dar si prietenii mei am legat o relatie cu Dr But care a depasit demult barierele medic-pacient. Suntem bucurosi ca stomatologul nostru nu este ,,omul care ne chinuie" ci prietenul care ne ajuta. Felicitari si pentru ideea de a transforma vechiul cabinet in primul DENTAL SPA din Cluj, un motiv in plus sa trecem pe la cabinet si cand nu ne dor dintii.</span>
+					<span class="author">- Daniel -</span>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="contact-header">
+			<div class="contact-title">{{contacteaza}}</div>
+			<div class="contact-subtitle">{{suntem_aici}}</div>
+		</div>
+		<div class="contact-map"></div>
+		<div class="contact-referrences">
+			<div class="contact-contact">
+				<div class="icon"></div>
+				<div class="details">
+					<div class="title">{{contact}}</div>
+					<div class="text">
+						<p>E-mail: office@drbut.ro </p>
+						<p>{{mobil}}: +40746 049 210 </p>                                  
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+40723 014 898</p>
+						<p>{{fix}}: +40264 541 953</p>	
+					</div>	
+				</div>
+			</div>
+			<div class="contact-orar">
+				<div class="icon"></div>
+				<div class="details">
+					<div class="title">{{orar}}</div>
+					<div class="text"><p>{{luni_joi}}: &nbsp;9-21</p>
+						<p>{{friday}}: &nbsp;9-15</p>
+						<p>{{urgente}}: NON-STOP</p>
+					</div>
+				</div>
+			</div>
+			<div class="contact-adresa">
+				<div class="icon"></div>
+				<div class="details">
+					<div class="title">{{address}}</div>
+					<div class="text"><p>{{adresa_summary_1}}</p><p>{{adresa_summary_2}}</p>
+					<p>Romania</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form action="/contact" novalidate>
+				<div class="name-field">
+					<label for="name">{{nume}}</label>
+					<input autocomplete="off" type="text" id="name" name="name"/>
+				</div>
+				<div class="mail-field">
+					<label for="mail">E-mail</label>
+					<input autocomplete="off" type="email" id="mail" name="mail"/>
+				</div>
+				<div class="message-field">
+					<label for="message">{{mesaj}}</label>
+					<textarea autocomplete="off" rows="15" id="message" name="message"></textarea>
+				</div>
+				<div class="submit-field">
+					<button id="send_email" type="submit">{{trimite}}</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-content">
+			<div id="message1"></div>
+			<div class="copyright">Copyright © Dr. But 2016</div>
+			<div class="creator">Created by Andrada David</div>
+		</div>
+	</footer>
+</body>
+</html>

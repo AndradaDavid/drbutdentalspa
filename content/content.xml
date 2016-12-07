@@ -1,0 +1,465 @@
+<content>
+
+	<!-- tarife protetica -->
+	<protetica>
+		<item>
+			<service>Reconstituirea corono-radiculara turnata in laborator</service>
+			<price>100 Ron</price>
+		</item>
+		<item>
+
+			<service>In-Lay/On-Lay Estenia</service>
+			<price>200 Ron</price>
+		</item>
+		<item>
+			<service>Coroana acrilica provizorie in cabinet</service>
+			<price>50 Ron</price>
+		</item>
+		<item>
+			<service>Coroana acrilica provizorie in laborator</service>
+			<price>100 Ron</price>
+		</item>
+		<item>
+			<service>Coroana metalica</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Coroana metalo-acrilica</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Coroana compozit(Estenia)</service>
+			<price>350 Ron</price>
+		</item>
+		<item>
+			<service>Coroana metalo-ceramica</service>
+			<price>500 Ron</price>
+		</item>
+		<item>
+			<service>Coroana ceramica (pe schelet de zirconiu)</service>
+			<price>1000 Ron</price>
+		</item>
+		<item>
+			<service>Coroana integral ceramica</service>
+			<price>1000 Ron</price>
+		</item>
+		<item>
+			<service>Proteza totala acrilica</service>
+			<price>1000 Ron</price>
+		</item>
+		<item>
+			<service>Reparatie proteza fracturata</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Captusire proteza</service>
+			<price>250 Ron</price>
+		</item>
+		<item>
+			<service>Reparatie dinte proteza</service>
+			<price>100 Ron</price>
+		</item>
+		<item>
+			<service>Reparatie croset</service>
+			<price>100 Ron</price>
+		</item>
+		<item>
+			<service>Proteza scheletata</service>
+			<price>3000 Ron</price>
+		</item>
+		<item>
+			<service>Gutiere acrilice ptr bruxism</service>
+			<price>300 Ron</price>
+		</item>
+		<item>
+			<service>Gutiere elastice ptr sportivi</service>
+			<price>650 Ron</price>
+		</item>
+		<item>
+			<service>Gutiere pentru albirea dintilor/fluorizare (2 arcade)</service>
+			<price>120 Ron</price>
+		</item>
+		<item>
+			<service>Proteza Kemmeny</service>
+			<price>400 Ron</price>
+		</item>
+		<item>
+			<service>Ablatie coroana</service>
+			<price>50 Ron</price>
+		</item>
+	</protetica>
+
+
+	<!-- tarife implantologie -->
+	<implantologie>
+		<item>
+			<service>Implant dentar(titan) intraosos(integrare 6 luni)</service>
+			<price>450 EUR</price>
+
+		</item>
+		<item>
+			<service>Implant dentar(titan) intraosos(integrare 1-3 luni)</service>
+			<price>450 EUR</price>
+
+		</item>
+		<item>
+			<service>Sinus lift(extern)</service>
+			<price>450-500 EUR</price>
+
+		</item>
+		<item>
+			<service>Aditie osoasa</service>
+			<price>300-400 EUR</price>
+
+		</item>
+		<item>
+			<service>Coroana implant metal-ceramica</service>
+			<price>250 EUR</price>
+
+		</item>
+		<item>
+			<service>Coroana implant zircon-ceramica</service>
+			<price>350 EUR</price>
+		</item>
+	</implantologie>
+
+
+	<!-- tarife acid hialuronic -->
+	<hialuronic>
+		<item>
+			<service>Juvéderm Ultra Smile fiola de 1ml</service>
+			<price>1150 LEI</price>
+		</item>
+		<item>
+			<service>Juvéderm Ultra Smile fiola de 0.55ml</service>
+			<price>700 LEI</price>
+		</item>
+	</hialuronic>
+
+
+	<!-- tarife chirurgie orodentara -->
+	<chirurgie>
+		<item>
+			<service>Consultatie</service>
+			<price>50 LEI</price>
+		</item>
+		<item>
+			<service><h4>Extractie</h4></service>
+		</item>
+		<item>
+			<service>Monoradicular</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Pluriradicular</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Cu separare radacini</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Cu alveolotomie</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Alveoloplastica</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Molar de minte</service>
+			<price>250LEI</price>
+		</item>
+		<item>
+			<service>Odontectomie</service>
+			<price>300 LEI</price>
+		</item>
+		<item>
+			<service>Plastie comunicare oro-antrala</service>
+			<price>200 LEI</price>
+		</item>
+		<item>
+			<service>Cura sinusala partiala</service>
+			<price>200 LEI</price>
+		</item>
+		<item>
+			<service><h4>Rezectie Apicala</h4></service>
+		</item>
+
+		<item>
+			<service>Incisivi, canini</service>
+			<price>250 LEI</price>
+		</item>
+		<item>
+			<service>Premolari</service>
+			<price>270 LEI</price>
+		</item>
+		<item>
+			<service>Molari</service>
+			<price>320-350 LEI</price>
+		</item>
+		<item>
+			<service>Premolarizare</service>
+			<price>120 LEI</price>
+		</item>
+		<item>
+			<service>Amputatie radiculara</service>
+			<price>120 LEI</price>
+		</item>
+		<item>
+			<service>Chistectomie</service>
+			<price>60-150 LEI</price>
+		</item>
+		<item>
+			<service>Chiuretaj subgingival/dinte</service>
+			<price>60 LEI</price>
+		</item>
+		<item>
+			<service><h4>Chirurgie Parodontala/ Operatie cu Lambou</h4>
+		</service>
+	</item>
+	<item>
+		<service>Monoradicular</service>
+		<price>70 LEI</price>
+	</item>
+	<item>
+		<service>Pluriradicular</service>
+		<price>80 LEI</price>
+	</item>
+	<item>
+		<service>Decapusonare</service>
+		<price>60 LEI</price>
+	</item>
+	<item>
+		<service>Descoperire chirurgicala</service>
+		<price>150-200 LEI</price>
+	</item>
+	<item>
+		<service>Gingivectomie/dinte</service>
+		<price>60 LEI</price>
+	</item>
+	<item>
+		<service>Gingivoosteoplastie/dinte</service>
+		<price>80 LEI</price>
+	</item>
+	<item>
+		<service>Gingivoplastie/hemiarcada</service>
+		<price>180 LEI</price>
+	</item>
+	<item>
+		<service>Regularizare creasta/hemiarcada</service>
+		<price>100-200 LEI</price>
+	</item>
+	<item>
+		<service>Frenectomie/plastie</service>
+		<price>100 LEI</price>
+	</item>
+	<item>
+		<service>Plastie brida</service>
+		<price>70 LEI</price>
+	</item>
+	<item>
+		<service>Vestibuloplastie/hemiarcada</service>
+		<price>100-150 LEI</price>
+	</item>
+	<item>
+		<service>Excizii locale</service>
+		<price>100-150 LEI</price>
+	</item>
+	<item>
+		<service>Extirpare epulis</service>
+		<price>100-150 LEI</price>
+	</item>
+	<item>
+		<service>Incizie abces endooral</service>
+		<price>50 LEI</price>
+	</item>
+</chirurgie>
+
+<!-- tarife cosmetica -->
+<cosmetica>
+	<item>
+		<service>Consultatie, apreciere status dentar si plan de tratament</service>
+		<price>50 Ron</price>
+	</item>
+	<item>
+		<service>Tratament dentar de urgenta</service>
+		<price>100 Ron</price>
+	</item>
+	<item>
+		<service>Detartraj ultrasonic+periaj profesional /2arcade</service>
+		<price>200 Ron</price>
+	</item>
+	<item>
+		<service>Obturatia compozit fotopolimerizabil cavitate mica/medie</service>
+		<price>100Ron</price>
+	</item>
+	<item>
+		<service>Obturatia compozit fotopolimerizabil cavitate profunda</service>
+		<price>150 Ron</price>
+	</item>
+	<item>
+		<service>Coafaj direct/indirect cu preparate tip Ca(OH)2 si eugenatdeZn</service>
+		<price>50 Ron</price>
+	</item>
+	<item>
+		<service>Pivot endodontic fibra de sticla</service>
+		<price>100Ron</price>
+	</item>
+	<item>
+		<service>Extirpare vitala la dinti monoradiculari + obturatie canal radicular</service>
+		<price>200 Ron</price>
+	</item>
+	<item>
+		<service>Extirpare vitala la dinti pluriradiculari + obutratii canale radiculare</service>
+		<price>250 Ron</price>
+	</item>
+	<item>
+		<service>Tratament gangrena / parodontita apicala</service>
+		<price>300 Ron</price>
+	</item>
+	<item>
+		<service>Tratament de albire a dintilor cu lampa cu accelerator de albire</service>
+		<price>500 Ron</price>
+	</item>
+	<item>
+		<service>Tratament de albire endodontica	/dinte</service>
+		<price>100 Ron</price>
+	</item>
+	<item>
+		<service>Obturatie glass-ionomer</service>
+		<price>80 Ron</price>
+	</item>
+	<item>
+		<service>Fluorizare/ arcada (nu include pretul gutierelor)</service>
+		<price>60 Ron</price>
+	</item>
+	<item>
+		<service>Reconstructie coronara compozit</service>
+		<price>150 Ron</price>
+	</item>
+	<item>
+		<service>Tatuaj dentar</service>
+		<price>150 Ron</price>
+	</item>
+</cosmetica>
+
+<!-- Tarife ortodontie -->
+<ortodontie>
+	<item>
+		<service>Consultatie initiala</service>
+		<price>50 LEI</price>
+	</item>
+	<item>
+		<service>Amprenta+model</service>
+		<price>50 LEI</price>
+	</item>
+	<item>
+		<service>Analiza teleradiografie</service>
+		<price>30 LEI</price>
+	</item>
+	<item>
+		<service>Control+activare aparat fix ceramic,saphir, Damon</service>
+		<price>150 LEI</price>
+	</item>
+	<item>
+		<service>Control+activare aparat fix metalic</service>
+		<price>100 LEI</price>
+	</item>
+	<item>
+		<service>Control+activare aparat mobilizabil</service>
+		<price>50 LEI</price>
+	</item>
+	<item>
+		<service>Aparat mobilizabil</service>
+		<price>700-900 LEI*</price>
+	</item>
+	<item>
+		<service>Aplicare aparat fix metalic pentru o arcada</service>
+		<price>2000 LEI</price>
+	</item>
+	<item>
+		<service>Aplicare aparat fix metalic Damon pt o arcada</service>
+		<price>2700 LEI</price>
+	</item>
+	<item>
+		<service>Aplicare aparat fix ceramic pentru o arcada</service>
+		<price>2500 LEI</price>
+	</item>
+	<item>
+		<service>Aplicare aparat fix ceramic Damon pt o arcada</service>
+		<price>3500 LEI</price>
+	</item>
+	<item>
+		<service>Aparat fix Safir Ice pentru o arcada</service>
+		<price>3000 LEI</price>
+	</item>
+	<item>
+		<service>Disjunctor</service>
+		<price>500 LEI</price>
+	</item>
+	<item>
+		<service>Arc facial+Head Gear</service>
+		<price>400 LEI</price>
+	</item>
+	<item>
+		<service>Masca Delaire</service>
+		<price>300 LEI</price>
+	</item>
+	<item>
+		<service>Barbita+capelina</service>
+		<price>300 LEI</price>
+	</item>
+	<item>
+		<service>Contentie fixa</service>
+		<price>200 LEI</price>
+	</item>
+	<item>
+		<service>Contentie mobila</service>
+		<price>300 LEI</price>
+	</item>
+	<item>
+		<service>Microimplant</service>
+		<price>900 LEI</price>
+	</item>
+	<item>
+		<service>Reparatie aparat mobilizabil</service>
+		<price>150 LEI</price>
+	</item>
+	<item>
+		<service>Gutiera acrilica</service>
+		<price>150 LEI</price>
+	</item>
+	<item>
+		<service>Modificare aparat</service>
+		<price>150 LEI</price>
+	</item>
+	<item>
+		<service>Modele intermediare</service>
+		<price>40 LEI</price>
+	</item>
+	<item>
+		<service>Bara linguala, Buton Nance, Bara Goshgarian</service>
+		<price>200 LEI</price>
+	</item>
+	<item>
+		<service>Recimentare inel</service>
+		<price>20 LEI</price>
+	</item>
+	<item>
+		<service>Colare bracket nou metalic</service>
+		<price>40 LEI</price>
+	</item>
+	<item>
+		<service>Bara linguala, Buton Nance, Bara Goshgarian</service>
+		<price>200 LEI</price>
+	</item>
+	<item>
+		<service>Colare bracket nou ceramic, saphir sau autoligaturant</service>
+		<price>100 LEI</price>
+	</item>
+</ortodontie>
+
+
+
+</content>
